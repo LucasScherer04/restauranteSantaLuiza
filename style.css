@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 2px;
+    background-color: #F5F7F8;
+    flex:0;
+}
+main {
+    display: flex;
+    flex:1;
+}
+
+#esquerda {
+    display:flex;
+    flex: 1;
+    background-color: red;
+}
+#centro {
+    display:flex;
+    flex: 5;
+    background-image: url("Cardápio.png");
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: center;
+}
+
+#direita {
+    display:flex;
+    flex: 1;
+    background-color: blue;
+}
+
+.Abas-pesquisa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    padding: 20px; /* Ajuste o padding conforme necessário */
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    background-color: white;
+}
+
+.card img {
+    border-radius: 10px;
+    aspect-ratio: auto;
+    object-fit: cover;
+    height: 100%;
+}
+
+.text-card {
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    flex:0;
+}
